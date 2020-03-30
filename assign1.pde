@@ -11,11 +11,11 @@ int rayX;
 
 void setup() {
 	size(640, 480, P2D);
-	backgroungImg = loadImage("assign1/bg.jpg");
-  soilImg = loadImage("assign1/soil.png");
-  lifeImg = loadImage("assign1/life.png");
-  grounghogImg = loadImage("assign1/groundhog.png");
-  robotImg = loadImage("assign1/robot.png");
+	backgroungImg = loadImage("img/bg.jpg");
+  soilImg = loadImage("img/soil.png");
+  lifeImg = loadImage("img/life.png");
+  grounghogImg = loadImage("img/groundhog.png");
+  robotImg = loadImage("img/robot.png");
   robotX=floor(random(160,560));
   robotY=floor(random(160,480));
   y=floor(random(160,480));
