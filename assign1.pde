@@ -16,6 +16,7 @@ void setup() {
   lifeImg = loadImage("img/life.png");
   grounghogImg = loadImage("img/groundhog.png");
   robotImg = loadImage("img/robot.png");
+  soldierImg = loadImage("img/soldier.png");
   robotX=floor(random(160,560));
   robotY=floor(random(160,480));
   y=floor(random(160,480));
@@ -49,7 +50,7 @@ void draw() {
   //soldier
   x= x + 5;
   x%=640;
-  soldierImg = loadImage("soldier.png");
+  
   imageMode(CORNERS);
   image(soldierImg,x,y);
   
