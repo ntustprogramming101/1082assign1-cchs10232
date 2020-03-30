@@ -29,7 +29,9 @@ void draw() {
   //background
   image(backgroungImg,0,0);
   image(soilImg,0,160);
-  image(lifeImg,10,10);image(lifeImg,80,10);image(lifeImg,150,10);
+  image(lifeImg,10,10);
+  image(lifeImg,80,10);
+  image(lifeImg,150,10);
 
   //grass
   rectMode(CORNERS);
