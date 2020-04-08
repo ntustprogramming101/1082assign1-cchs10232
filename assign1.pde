@@ -5,7 +5,6 @@ PImage lifeImg;
 PImage robotImg;
 PImage soldierImg;
 float soldierX, soldierY, soilFloor;
-int x,y;
 int robotX,robotY;
 int rayX;
 
@@ -57,8 +56,6 @@ void draw() {
   soldierX%=640;  
   imageMode(CORNERS);
   image(soldierImg, soldierX, soldierY);
-  imageMode(CORNERS);
-  image(soldierImg,x,y);
   
   //robot
   image(robotImg,robotX,robotY);
