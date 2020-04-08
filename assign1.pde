@@ -20,7 +20,6 @@ void setup() {
   soldierImg = loadImage("img/soldier.png");
   robotX=floor(random(160,560));
   robotY=floor(random(160,480));
-  y=floor(random(160,480));
   rayX=robotX-15;
   soilFloor = 80;
   soldierY=floor(random(2, 6))*soilFloor;
