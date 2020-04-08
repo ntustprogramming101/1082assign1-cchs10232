@@ -53,9 +53,10 @@ void draw() {
   image(grounghogImg,280,80);
 	
   //soldier
-  x= x + 5;
-  x%=640;
-  
+  soldierX= soldierX + 5;
+  soldierX%=640;  
+  imageMode(CORNERS);
+  image(soldierImg, soldierX, soldierY);
   imageMode(CORNERS);
   image(soldierImg,x,y);
   
