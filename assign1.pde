@@ -53,9 +53,9 @@ void draw() {
 	
   //soldier
   soldierX= soldierX + 5;
-  soldierX%=640;  
+  if (soldierX>=640)soldierX=-80; 
   imageMode(CORNERS);
-  image(soldierImg, soldierX, soldierY);
+  image(soldierImg, soldierX, y);
   
   //robot
   image(robotImg,robotX,robotY);
