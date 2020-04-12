@@ -21,6 +21,7 @@ void setup() {
   robotY=floor(random(160,480));
   soilFloor = 80;
   soldierY=floor(random(2, 6))*soilFloor;
+  robotY=floor(random(2, 6))*soilFloor;
 
 
 
